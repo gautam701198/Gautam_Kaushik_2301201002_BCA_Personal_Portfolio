@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* light gray background */
+}
+
+header {
+    background-color: #3498db; /* blue-green header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff; /* white background */
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 0;
+    color: #2ecc71; /* green title */
+}
+
+.project-card {
+    background-color: #f7f7f7; /* light gray background */
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+    margin-top: 0;
+    color: #9b59b6; /* purple subtitle */
+}
+
+.project-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project-card li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #e74c3c; /* orange button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b; /* darker orange on hover */
+}
+
+footer {
+    background-color: #3498db; /* blue-green footer */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
